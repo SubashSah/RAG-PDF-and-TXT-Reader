@@ -21,8 +21,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd RAG-PDF-Reader
+git clone https://github.com/SubashSah/RAG-PDF-and-TXT-Reader
+cd RAG-PDF-and-TXT-Reader
 ```
 
 ### 2. Create a virtual environment
