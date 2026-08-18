@@ -9,10 +9,7 @@ router = APIRouter(
 )
 
 
-@router.post(
-    "",
-    response_model=ChatResponse,
-)
+@router.post("", response_model=ChatResponse)
 async def chat_endpoint(request: ChatRequest):
     answer = chat(session_id=request.session_id, question=request.question)
 

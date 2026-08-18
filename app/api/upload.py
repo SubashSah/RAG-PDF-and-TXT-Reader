@@ -1,13 +1,7 @@
 import shutil
 from pathlib import Path
 
-from fastapi import (
-    APIRouter,
-    File,
-    Form,
-    HTTPException,
-    UploadFile,
-)
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
 from app.enums import ChunkStrategy
 from app.services.chunking_service import chunk_documents
